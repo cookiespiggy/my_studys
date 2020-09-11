@@ -1,0 +1,451 @@
+"C:\Program Files\Java\jdk1.8.0_73\bin\java.exe" -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:9191,suspend=y,server=n -javaagent:C:\Users\yueshow\.IdeaIC2018.3\system\captureAgent\debugger-agent.jar -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;D:\bigdata_analyse\mock_data\target\classes;C:\Users\yueshow\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.0.RELEASE\spring-boot-starter-2.1.0.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\boot\spring-boot\2.1.0.RELEASE\spring-boot-2.1.0.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.0.RELEASE\spring-boot-autoconfigure-2.1.0.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.0.RELEASE\spring-boot-starter-logging-2.1.0.RELEASE.jar;C:\Users\yueshow\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\yueshow\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\yueshow\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.1\log4j-to-slf4j-2.11.1.jar;C:\Users\yueshow\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\yueshow\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\yueshow\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\yueshow\.m2\repository\org\springframework\spring-core\5.1.2.RELEASE\spring-core-5.1.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\spring-jcl\5.1.2.RELEASE\spring-jcl-5.1.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\yueshow\.m2\repository\org\springframework\kafka\spring-kafka\2.2.0.RELEASE\spring-kafka-2.2.0.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\spring-context\5.1.2.RELEASE\spring-context-5.1.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\spring-aop\5.1.2.RELEASE\spring-aop-5.1.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\spring-beans\5.1.2.RELEASE\spring-beans-5.1.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\spring-expression\5.1.2.RELEASE\spring-expression-5.1.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\spring-messaging\5.1.2.RELEASE\spring-messaging-5.1.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\spring-tx\5.1.2.RELEASE\spring-tx-5.1.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\springframework\retry\spring-retry\1.2.2.RELEASE\spring-retry-1.2.2.RELEASE.jar;C:\Users\yueshow\.m2\repository\org\apache\kafka\kafka-clients\2.0.0\kafka-clients-2.0.0.jar;C:\Users\yueshow\.m2\repository\org\lz4\lz4-java\1.4.1\lz4-java-1.4.1.jar;C:\Users\yueshow\.m2\repository\org\xerial\snappy\snappy-java\1.1.7.1\snappy-java-1.1.7.1.jar;C:\Users\yueshow\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\yueshow\.m2\repository\org\projectlombok\lombok\1.18.2\lombok-1.18.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.6\lib\idea_rt.jar" com.itcast.SpringBootDemoMqKafkaApplication
+Connected to the target VM, address: '127.0.0.1:9191', transport: 'socket'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2020-09-09 15:02:50.226  INFO 92828 --- [           main] c.i.SpringBootDemoMqKafkaApplication     : Starting SpringBootDemoMqKafkaApplication on LAPTOP-1QBCMBN1 with PID 92828 (D:\bigdata_analyse\mock_data\target\classes started by yueshow in D:\bigdata_analyse)
+2020-09-09 15:02:50.234  INFO 92828 --- [           main] c.i.SpringBootDemoMqKafkaApplication     : No active profile set, falling back to default profiles: default
+2020-09-09 15:02:51.216  INFO 92828 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$91fbb64f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-09 15:05:58.999  INFO 92828 --- [           main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values:
+	bootstrap.servers = [localhost:9092]
+	client.id =
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2020-09-09 15:05:59.081  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.0
+2020-09-09 15:05:59.081  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 3402a8361b734732
+2020-09-09 15:05:59.580  INFO 92828 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values:
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id =
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-09-09 15:05:59.632  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.0
+2020-09-09 15:05:59.632  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 3402a8361b734732
+2020-09-09 15:05:59.643  INFO 92828 --- [           main] org.apache.kafka.clients.Metadata        : Cluster ID: p-zzu5trRw6j-ocGXiVRBA
+2020-09-09 15:05:59.672  INFO 92828 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values:
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id =
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-09-09 15:05:59.677  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.0
+2020-09-09 15:05:59.678  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 3402a8361b734732
+2020-09-09 15:05:59.683  INFO 92828 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-09-09 15:05:59.694  INFO 92828 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values:
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id =
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-09-09 15:05:59.704  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.0
+2020-09-09 15:05:59.705  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 3402a8361b734732
+2020-09-09 15:05:59.705  INFO 92828 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-09-09 15:05:59.707  INFO 92828 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values:
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.id =
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spring-boot-demo
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 60000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-09-09 15:05:59.708  INFO 92828 --- [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : Cluster ID: p-zzu5trRw6j-ocGXiVRBA
+2020-09-09 15:05:59.715  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.0
+2020-09-09 15:05:59.715  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 3402a8361b734732
+2020-09-09 15:05:59.715  INFO 92828 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-09-09 15:05:59.717  INFO 92828 --- [ntainer#0-1-C-1] org.apache.kafka.clients.Metadata        : Cluster ID: p-zzu5trRw6j-ocGXiVRBA
+2020-09-09 15:05:59.742  INFO 92828 --- [ntainer#0-2-C-1] org.apache.kafka.clients.Metadata        : Cluster ID: p-zzu5trRw6j-ocGXiVRBA
+2020-09-09 15:05:59.746  INFO 92828 --- [           main] c.i.SpringBootDemoMqKafkaApplication     : Started SpringBootDemoMqKafkaApplication in 190.207 seconds (JVM running for 191.896)
+2020-09-09 15:05:59.754  INFO 92828 --- [           main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values:
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id =
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2020-09-09 15:05:59.834  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.0
+2020-09-09 15:05:59.835  INFO 92828 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 3402a8361b734732
+2020-09-09 15:05:59.861  INFO 92828 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : Cluster ID: p-zzu5trRw6j-ocGXiVRBA
+2020-09-09 15:06:00.959  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:00.959  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:00.963  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] Revoking previously assigned partitions []
+2020-09-09 15:06:00.963  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Revoking previously assigned partitions []
+2020-09-09 15:06:00.963  INFO 92828 --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions revoked: []
+2020-09-09 15:06:00.963  INFO 92828 --- [ntainer#0-1-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions revoked: []
+2020-09-09 15:06:00.963  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] (Re-)joining group
+2020-09-09 15:06:00.963  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] (Re-)joining group
+2020-09-09 15:06:00.983  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-09-09 15:06:00.983  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] Group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-09-09 15:06:00.986  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:00.988  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] Revoking previously assigned partitions []
+2020-09-09 15:06:00.988  INFO 92828 --- [ntainer#0-2-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions revoked: []
+2020-09-09 15:06:00.988  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] (Re-)joining group
+2020-09-09 15:06:00.996  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] Group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-09-09 15:06:01.088  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:01.088  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:01.088  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] Group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-09-09 15:06:01.088  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-09-09 15:06:01.099  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:01.100  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] Group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-09-09 15:06:01.190  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:01.190  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:01.191  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] (Re-)joining group
+2020-09-09 15:06:01.191  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] (Re-)joining group
+2020-09-09 15:06:01.202  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] Discovered group coordinator LAPTOP-1QBCMBN1.mshome.net:9092 (id: 2147483647 rack: null)
+2020-09-09 15:06:01.202  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] (Re-)joining group
+2020-09-09 15:06:01.218  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] (Re-)joining group
+2020-09-09 15:06:01.242  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] Successfully joined group with generation 2
+2020-09-09 15:06:01.243  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] Successfully joined group with generation 2
+2020-09-09 15:06:01.243  INFO 92828 --- [ntainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-3, groupId=spring-boot-demo] Setting newly assigned partitions []
+2020-09-09 15:06:01.244  INFO 92828 --- [ntainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-4, groupId=spring-boot-demo] Setting newly assigned partitions []
+2020-09-09 15:06:01.244  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Successfully joined group with generation 2
+2020-09-09 15:06:01.246  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Setting newly assigned partitions [test-0]
+2020-09-09 15:06:01.247  INFO 92828 --- [ntainer#0-2-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions assigned: []
+2020-09-09 15:06:01.247  INFO 92828 --- [ntainer#0-1-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions assigned: []
+2020-09-09 15:06:01.262  INFO 92828 --- [ntainer#0-0-C-1] o.a.k.c.consumer.internals.Fetcher       : [Consumer clientId=consumer-2, groupId=spring-boot-demo] Resetting offset for partition test-0 to offset 1.
+2020-09-09 15:06:01.274  INFO 92828 --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : partitions assigned: [test-0]
+2020-09-09 15:06:04.957  INFO 92828 --- [ntainer#0-0-C-1] com.itcast.handler.MessageHandler        : 收到消息: hello,spark

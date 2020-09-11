@@ -1,0 +1,7 @@
+# Start the ZooKeeper service
+# Note: Soon, ZooKeeper will no longer be required by Apache Kafka.
+cd kafka_2.11-0.10.2.2
+# 如果是unix系統，不用修改任何東西，如果是windows，修改一下目錄即可，當然也可以不用修改
+$ bin/windows/zookeeper-server-start.bat com.itcast.config/zookeeper.properties
+# Start the Kafka broker service
+$ bin/windows/kafka-server-start.bat com.itcast.config/server.properties
