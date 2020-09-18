@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/ap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mock_data" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark_examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark_kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_es" charset="UTF-8" />
   </component>
 </project>

@@ -7,14 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ap" />
+        <module name="dubbo" />
         <module name="mock_data" />
         <module name="spark_examples" />
+        <module name="spark_kafka" />
         <module name="spring-boot-elasticsearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ap" target="1.8" />
+      <module name="dubbo" target="1.8" />
       <module name="mock_data" target="1.8" />
       <module name="spark_examples" target="1.8" />
+      <module name="spark_kafka" target="1.8" />
       <module name="spring-boot-elasticsearch" target="1.8" />
     </bytecodeTargetLevel>
   </component>

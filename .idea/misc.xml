@@ -6,6 +6,9 @@
         <option value="$PROJECT_DIR$/spark_examples/pom.xml" />
         <option value="$PROJECT_DIR$/mock_data/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_es/pom.xml" />
+        <option value="$PROJECT_DIR$/ap/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/spark_kafka/pom.xml" />
       </list>
     </option>
   </component>
