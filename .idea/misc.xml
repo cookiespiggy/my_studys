@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/ap/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/spark_kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/json/pom.xml" />
+        <option value="$PROJECT_DIR$/map/pom.xml" />
       </list>
     </option>
   </component>
