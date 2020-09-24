@@ -36,5 +36,7 @@ public class DownloadRoute extends RouteBuilder {
                 .to("file:" + downloadLocation)
                 .process(dataProcessor)
                 .log(LoggingLevel.INFO, logger, "Download file ${file:name} complete.");
+
+//        from("").to("");
     }
 }

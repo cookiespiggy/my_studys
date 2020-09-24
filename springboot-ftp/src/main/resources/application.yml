@@ -1,7 +1,7 @@
 ftp:
   username: ftpuser
   passwd: ftp2018
-  path: localhost:2264
+  path: localhost:9765
   options: readLock=rename&delay=10s&binary=true&filter=#zipFileFilter&delete=true&recursive=true
   url: ftp://${ftp.username}@${ftp.path}/?password=${ftp.passwd}&${ftp.options}
   # 本地下载目录
@@ -12,8 +12,8 @@ camel:
   springboot:
     main-run-controller: true
 
-management:
-  endpoint:
-    camelroutes:
-      enabled: true
-      read-only: true
+#management:
+#  endpoint:
+#    camelroutes:
+#      enabled: true
+#      read-only: true
