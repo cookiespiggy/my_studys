@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ap" />
         <module name="dubbo" />
+        <module name="ftp-camel-demo" />
         <module name="json_data" />
         <module name="mock_data" />
         <module name="spark_examples" />
@@ -41,6 +42,7 @@
     <bytecodeTargetLevel>
       <module name="ap" target="1.8" />
       <module name="dubbo" target="1.8" />
+      <module name="ftp-camel-demo" target="1.8" />
       <module name="json_data" target="1.8" />
       <module name="map" target="1.8" />
       <module name="mock_data" target="1.8" />

@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/spark_kafka/pom.xml" />
         <option value="$PROJECT_DIR$/json/pom.xml" />
         <option value="$PROJECT_DIR$/map/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-ftp/pom.xml" />
       </list>
     </option>
   </component>

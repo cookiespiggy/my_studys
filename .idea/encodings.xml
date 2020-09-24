@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/mock_data" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark_examples" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark_kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-ftp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_es" charset="UTF-8" />
   </component>
 </project>
