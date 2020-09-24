@@ -34,6 +34,10 @@ public class DataProcessor implements Processor {
 
     @Override
     public void process(Exchange exchange) throws Exception {
+
+
+
+
         GenericFileMessage<RandomAccessFile> inFileMessage = (GenericFileMessage<RandomAccessFile>) exchange.getIn();
         String fileName = inFileMessage.getGenericFile().getFileName();
         System.out.println(fileName);
