@@ -5,6 +5,7 @@ import org.apache.camel.Processor;
 import org.apache.camel.component.file.GenericFileMessage;
 import org.apache.camel.util.FileUtil;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.net.ftp.FTPClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -68,6 +69,11 @@ public class DataProcessor implements Processor {
      * @param filePath 文件路径
      */
     private void readZip(String filePath) throws Exception {
+
+        FTPClient ftpClient = null;
+
+        ftpClient.listFiles()
+
         ZipFile zipFile = new ZipFile(filePath);
         InputStream inputStream = new BufferedInputStream(new FileInputStream(filePath));
         ZipInputStream zipInputStream = new ZipInputStream(inputStream);

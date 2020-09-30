@@ -6,12 +6,16 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/bigdata_analyse.iml" filepath="$PROJECT_DIR$/.idea/bigdata_analyse.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/dubbo/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-ftp/ftp-camel-demo.iml" filepath="$PROJECT_DIR$/springboot-ftp/ftp-camel-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftp-integration/integration/integration.iml" filepath="$PROJECT_DIR$/ftp-integration/integration/integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/json/json_data.iml" filepath="$PROJECT_DIR$/json/json_data.iml" />
       <module fileurl="file://$PROJECT_DIR$/map/map.iml" filepath="$PROJECT_DIR$/map/map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftp-integration/mina-ftp-server/mina-ftp-server.iml" filepath="$PROJECT_DIR$/ftp-integration/mina-ftp-server/mina-ftp-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/mock_data/mock_data.iml" filepath="$PROJECT_DIR$/mock_data/mock_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark_es/spark_es.iml" filepath="$PROJECT_DIR$/spark_es/spark_es.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark_examples/spark_examples.iml" filepath="$PROJECT_DIR$/spark_examples/spark_examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark_kafka/spark_kafka.iml" filepath="$PROJECT_DIR$/spark_kafka/spark_kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_es/spring-boot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot_es/spring-boot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftp_mock/spring-integration-ftp.iml" filepath="$PROJECT_DIR$/ftp_mock/spring-integration-ftp.iml" />
     </modules>
   </component>
 </project>

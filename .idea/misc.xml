@@ -12,6 +12,10 @@
         <option value="$PROJECT_DIR$/json/pom.xml" />
         <option value="$PROJECT_DIR$/map/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-ftp/pom.xml" />
+        <option value="$PROJECT_DIR$/spark_es/pom.xml" />
+        <option value="$PROJECT_DIR$/ftp-integration/integration/pom.xml" />
+        <option value="$PROJECT_DIR$/ftp-integration/mina-ftp-server/pom.xml" />
+        <option value="$PROJECT_DIR$/ftp_mock/pom.xml" />
       </list>
     </option>
   </component>

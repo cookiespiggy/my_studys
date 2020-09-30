@@ -3,9 +3,13 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/ap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ftp-integration/integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ftp-integration/mina-ftp-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ftp_mock" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/map" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mock_data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark_es" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark_examples" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark_kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-ftp" charset="UTF-8" />
